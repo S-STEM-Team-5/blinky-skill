@@ -1,3 +1,4 @@
+from adapt.intent import IntentBuilder
 from mycroft import MycroftSkill, intent_file_handler
 
 
@@ -12,4 +13,10 @@ class Blinky(MycroftSkill):
 
 def create_skill():
     return Blinky()
+
+ // Should stop the blinking of the light. 
+
+def stop(self):
+    pass
+
 
