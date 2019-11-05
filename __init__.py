@@ -9,14 +9,26 @@ class Blinky(MycroftSkill):
     @intent_file_handler('blinky.intent')
     def handle_blinky(self, message):
         self.speak_dialog('blinky')
+    
+    @intent_handler('party.intent')
+    def party_time(self, message):
+        party_type = message.get.type('party'}
+        if party_tyoe is not None:
+            self.speak_dialog('party.type',
+                    {'party': party_type})
+        else:
+            self.speak_dialog('party.generic')
+
+
+
+
+    def stop(self):
+        pass
+
 
 
 def create_skill():
     return Blinky()
 
  // Should stop the blinking of the light. 
-
-def stop(self):
-    pass
-
 
