@@ -13,7 +13,7 @@ class Blinky(MycroftSkill):
     @intent_handler('party.intent')
     def party_time(self, message):
         party_type = message.get.type('party'}
-        if party_tyoe is not None:
+        if party_type is not None:
             self.speak_dialog('party.type',
                     {'party': party_type})
         else:
