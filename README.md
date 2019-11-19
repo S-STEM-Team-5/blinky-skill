@@ -9,7 +9,7 @@ Created by a few computer science students at appalachian state in an effort to 
 * "Let's have a rave"
 
 ## Credits
-gittinhubbed
+gittinhubbed, user2745, hillbryan, sagejames
 
 ## Category
 **IoT**
